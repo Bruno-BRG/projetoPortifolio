@@ -1,9 +1,13 @@
-@import url('https://fonts.googleapis.com/css2?family=Nerd+Font&display=swap');
+/* i want the font for the entirepage to be the sharetewch mono ones*/
+
+
+
+
 
 body {
 	background-color: black;
-	color: #00FF00;
-	font-family: 'Nerd Font', monospace;
+	color: #13a10e;
+	font-family: 'Share Tech Mono', monospace;
 }
 
 .titleName {
@@ -12,6 +16,12 @@ body {
 
 .titleName h1 {
 	font-size: 3em;
+}
+
+.titleName h2 {
+	font-size: 2em;
+	padding-left: 200px;
+	padding-right: 200px;
 }
 
 .Projetos {
@@ -40,5 +50,13 @@ body {
 
 #projeto3 {
 	border: 1px solid #00FF00;
+	margin: 10px;
+}
+
+
+/*About me CSS*/
+#aboutMePage {
+	text-align: center;
+	padding: 10px;
 	margin: 10px;
 }
