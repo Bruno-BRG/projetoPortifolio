@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Nerd+Font&display=swap');
+
+body {
+	background-color: black;
+	color: #00FF00;
+	font-family: 'Nerd Font', monospace;
+}
+
+.titleName {
+	text-align: center;
+}
+
+.titleName h1 {
+	font-size: 3em;
+}
+
+.Projetos {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: center;
+}
+
+#tituloProjetos {
+	text-align: center;
+}
+
+.project {
+	text-align: center;
+}
