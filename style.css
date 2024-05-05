@@ -27,3 +27,18 @@ body {
 .project {
 	text-align: center;
 }
+
+#projeto1 {
+	border: 1px solid #00FF00;
+	margin: 10px;
+}
+
+#projeto2 {
+	border: 1px solid #00FF00;
+	margin: 10px;
+}
+
+#projeto3 {
+	border: 1px solid #00FF00;
+	margin: 10px;
+}
