@@ -17,8 +17,6 @@ body {
 	padding-right: 200px;
 }
 
-#asciiART {}
-
 .Projetos {
 	display: flex;
 	flex-wrap: wrap;
@@ -71,6 +69,18 @@ body {
 /*About me CSS*/
 #aboutMePage {
 	text-align: center;
-	padding: 10px;
+	padding-top: 100px;
+	padding-left: 300px;
+	padding-right: 300px;
 	margin: 10px;
+	margin-top: 30px;
+	line-height: 1.5;
+}
+
+#aboutMeTitle {
+	text-align: center;
+	padding: 50px;
+	margin: 10px;
+	margin-top: 50px;
+	font-size: 40px;
 }
