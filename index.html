@@ -9,12 +9,19 @@
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Portifolio Frykits</title>
 	<link rel="stylesheet" href="style.css">
-
 </head>
 
 <body>
 	<div class="titleName" id="mainTitle">
-		<h1>Portifolio Frykits</h1>
+	<pre id="asciiART">
+██████╗ ██████╗ ██╗   ██╗███╗   ██╗ ██████╗     ██████╗  ██████╗  ██████╗██╗  ██╗ █████╗ 
+██╔══██╗██╔══██╗██║   ██║████╗  ██║██╔═══██╗    ██╔══██╗██╔═══██╗██╔════╝██║  ██║██╔══██╗
+██████╔╝██████╔╝██║   ██║██╔██╗ ██║██║   ██║    ██████╔╝██║   ██║██║     ███████║███████║
+██╔══██╗██╔══██╗██║   ██║██║╚██╗██║██║   ██║    ██╔══██╗██║   ██║██║     ██╔══██║██╔══██║
+██████╔╝██║  ██║╚██████╔╝██║ ╚████║╚██████╔╝    ██║  ██║╚██████╔╝╚██████╗██║  ██║██║  ██║
+╚═════╝ ╚═╝  ╚═╝ ╚═════╝ ╚═╝  ╚═══╝ ╚═════╝     ╚═╝  ╚═╝ ╚═════╝  ╚═════╝╚═╝  ╚═╝╚═╝  ╚═╝
+	</pre>
+
 		<div>
 			<h2> I am 3rd semester CompSci student I love coding. I want to specialize in back-end development and
 				system
@@ -27,43 +34,37 @@
 	<h1 id="tituloProjetos">Projects:</h1>
 	<div class="Projetos">
 		<div class="project" id="projeto1">
-			<h3 id="project1">Project 1</h3>
+			<h3 class="projectTitle">SHA256_Go</h3>
 			<br>
-			<img href="https://github.com/Frykits/SHA256_Go" src="./images/placeholder.jpg"></img>
-			<p>Project 1 description</p>
-			<p> Link to project: <a href="https://github.com/Frykits/SHA256_Go">SHA256_Go</a></p>
+			<p class= "textProject">A hash encryption algorith in go that accepts input and returns a hash for it, it can also compare hashes to see if they are the same to check the integrety of the file received.</p>
+			<p id="linkToProject"> Link to project: <a href="https://github.com/Frykits/SHA256_Go">SHA256_Go</a></p>
 		</div>
 		<div class="project" id="projeto2">
-			<h3 id="project2">Project 2</h3>
-			<img src="./images/placeholder.jpg"></img>
-			<p>Project 2 description</p>
-
+			<h3 class="projectTitle">Roguelike in Python</h3>
+			<p class="textProject">Roguelike with ASCII graphics completly made in python.</p>
+	<p id="linkToProject"> Link to project: <a href="https://github.com/Frykits/SHA256_Go">SHA256_Go</a></p>
 		</div>
 		<div class="project" id="projeto3">
-			<h3 id="project3">Project 3</h3>
-			<img src="./images/placeholder.jpg"></img>
-			<p>Project 3 description</p>
-		</div>
-	</div>
-
-
-	<div id="header">
-		<div id="aboutMe">
-			<a href="aboutMe.html">About Me</a>
-		</div>
-		<div id="contants">
-			<a href="contacts.html">Contacts</a>
-		</div>
-		<div id="githublink">
-			<a href="https://github.com/Frykits">Github</a>
+			<h3 class="projectTitle">Project 3</h3>
+			<p class="textProject">Project 3 description</p>
 		</div>
 	</div>
 
 	<script src="script.js"></script>
 </body>
 <div id="footer">
-	<p>NeoVim is King</p>
-
+	<p id="vimKing">NeoVim is King</p>
+	<div id="otherPages">
+		<div class="pages">
+			<a href="aboutMe.html">About Me</a>
+		</div>
+		<div class="pages">
+			<a href="contacts.html">Contacts</a>
+		</div>
+		<div class="pages">
+			<a href="https://github.com/Frykits">Github</a>
+		</div>
+	</div>
 </div>
 
 </html>
